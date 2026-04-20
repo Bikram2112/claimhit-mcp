@@ -38,3 +38,17 @@ Standards mode searches published specifications from 3GPP, IEEE, ETSI, ITU-T an
 
 Built by [Scintillation Research and Analytics Services Pvt. Ltd.](https://claimhit.com)  
 Homepage: [claimhit.com](https://claimhit.com)
+
+## Troubleshooting
+
+**Authentication failed**
+Ensure your API key starts with `ch_live_` and is active. Generate a new key at claimhit.com/claimhit/account → Developer tab.
+
+**No results returned**
+Check your credit balance using `claimhit_get_credits`. Purchase additional credits at claimhit.com/claimhit/credits.
+
+**Patent not found**
+Ensure the patent number includes the kind code (e.g. US10123456B2, not US10123456).
+
+**Support**
+Email hello@claimhit.com with your request ID for any issues.
